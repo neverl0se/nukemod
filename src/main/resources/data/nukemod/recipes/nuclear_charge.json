@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "UUU",
+    "U U",
+    "UUU"
+  ],
+  "key": {
+    "U": {
+      "item": "nukemod:uranium_ore"
+    }
+  },
+  "result": {
+    "item": "nukemod:nuclear_charge"
+  }
+}

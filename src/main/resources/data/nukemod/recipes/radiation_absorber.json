@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GUG",
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "U": {
+      "item": "nukemod:uranium_ore"
+    }
+  },
+  "result": {
+    "item": "nukemod:radiation_absorber"
+  }
+}

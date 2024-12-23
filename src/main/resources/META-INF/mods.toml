@@ -1,0 +1,31 @@
+# mods.toml
+modLoader="javafml"
+loaderVersion="[44,)"
+license="MIT"
+issueTrackerURL="https://github.com/yourusername/BetterNuke/issues"
+showAsResourcePack=false
+
+[[mods]]
+modId="nukemod"
+version="1.0.0"
+displayName="BetterNuke"
+description='''
+BetterNuke is a mod that adds nuclear mechanics to Minecraft.
+'''
+authors="YourName"
+credits="Thanks to the Forge community for their support."
+logoFile="logo.png"
+
+[[dependencies.nukemod]]
+modId="forge"
+mandatory=true
+versionRange="[44.1.8,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.nukemod]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.19.3,1.20)"
+ordering="AFTER"
+side="BOTH"
